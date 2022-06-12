@@ -5,7 +5,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir SkyzoMusicBot \
     && cd SkyzoMusicBot \
-    && git clone https://github.com/coba7878/SkyzoMusicBot
+    && git clone https://github.com/muklas8900/SkyzoMusicBot
 WORKDIR /SkyzoMusicBot/SkyzoMusicBot
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 CMD python3 -m Music
